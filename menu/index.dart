@@ -17,10 +17,11 @@ class Menu{
       "Desafio 14: Par o impar",
       "Desafio 15: En rango de 0 a 10",
       ];
-    print("== Menu ==");
+    print("========== Menu ==========");
     for (var menu in menuList) {
       print("|$menu|");
     }
-    print("Salida es 0");
+    print("[*] Para salir es 0");
+    print("==========     ==========");
   }
 }
